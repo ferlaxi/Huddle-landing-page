@@ -1,0 +1,236 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+body{
+    position: relative;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+.imgmain{
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    width: 900px;
+}
+
+.titulo{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    top: 250px;
+    left: 54%;
+    width: 700px;
+}
+
+.desc{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    top: 420px;
+    left: 54%;
+    width: 700px;
+    font-size: 18px;
+}
+
+.boton{
+    position: absolute;
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 50px 15px 50px;
+    background-color: white;
+    border-radius: 30px;
+    left: 54%;
+    top: 550px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.336);
+    transition: all .4s;
+}
+
+.boton:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.redes{
+    position: absolute;
+    left: 81%;
+    top: 880px;
+}
+
+.facebook{
+    border-radius: 50%;
+    padding: 27px 12px 10px 12px;
+    border: 2px solid white;
+    transition: all .4s;
+}
+
+.facebook:hover{
+    border: 2px solid hsl(300, 87%, 64%);
+}
+
+.facebook:hover .face{
+    filter: invert(50%) sepia(54%) saturate(3336%) hue-rotate(267deg) brightness(96%) contrast(98%);
+}
+
+.twitter{
+    border-radius: 50%;
+    padding: 26px 11px 9px 12px;
+    border: 2px solid white;
+    margin-left: 10px;
+    transition: all .4s;
+}
+
+.twitter:hover{
+    border: 2px solid hsl(300, 87%, 64%);
+}
+
+.twitter:hover .tw{
+    filter: invert(50%) sepia(54%) saturate(3336%) hue-rotate(267deg) brightness(96%) contrast(98%);
+}
+
+
+.instagram{
+    border-radius: 50%;
+    padding: 26px 11px 9px 12px;
+    border: 2px solid white;
+    margin-left: 10px;
+    transition: all .4s;
+}
+
+.instagram:hover{
+    border: 2px solid hsl(300, 87%, 64%);
+}
+
+.instagram:hover .insta{
+    filter: invert(50%) sepia(54%) saturate(3336%) hue-rotate(267deg) brightness(96%) contrast(98%);
+}
+
+
+
+
+.face{
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(214deg) brightness(104%) contrast(105%);
+}
+
+.tw{
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(214deg) brightness(104%) contrast(105%);
+}
+
+.insta{
+    width: 30px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(214deg) brightness(104%) contrast(105%);
+}
+
+
+/* 1440px Size */
+@media (max-width: 1440px){
+    
+    body{
+        background-size: 103%;
+    }
+
+    .imgmain{
+        width: 650px;
+
+    }
+
+    .titulo{
+        font-size: 35px;
+    }
+
+    .desc{
+        font-size: 17px;
+        width: 600px;
+        margin-top: -30px;
+    }
+
+    .boton{
+        margin-top: -40px;
+    }
+
+    .redes{
+        margin-top: -90px;
+    }
+}
+
+/* 375px Size */
+@media (max-width: 375px){
+    .logo{
+        width: 170px;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+
+    .imgmain{
+        width: 310px;
+        margin-left: -30px;
+        margin-top: -70px;
+    }
+
+    .titulo{
+        font-size: 20px;
+        margin-top: 120px;
+        margin-left: -160px;
+        text-align: center;
+        width: 300px;
+    }
+
+    .desc{
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: -160px;
+        text-align: center;
+        width: 300px;
+    }
+
+    .boton{
+        margin-top: 100px;
+        margin-left: -160px;
+        padding: 15px 100px 15px 100px;
+    }
+
+    .redes{
+        margin-left: -200px;
+    }
+
+    .facebook{
+        padding: 19px 12px 10px 12px;
+    }
+
+    .face{
+        width: 20px;
+    }
+
+    .twitter{
+        padding: 19px 12px 10px 12px;
+    }
+
+    .tw{
+        width: 20px;
+    }
+
+    .instagram{
+        padding: 19px 12px 10px 12px;
+    }
+
+    .insta{
+        width: 20px;
+    }
+
+}
