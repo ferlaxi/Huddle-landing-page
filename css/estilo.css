@@ -171,6 +171,11 @@ body{
 
 /* 375px Size */
 @media (max-width: 375px){
+
+    body{
+        background-image: url(/images/bg-mobile.svg);
+    }
+
     .logo{
         width: 170px;
         margin-left: -30px;
