@@ -9,4 +9,4 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## Links
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
-- Live Site URL: [Huddle landing page]()🌐
+- Live Site URL: [Huddle landing page](https://ferlaxi.github.io/Huddle-landing-page/)🌐
